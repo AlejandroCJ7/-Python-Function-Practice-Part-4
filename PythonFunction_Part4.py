@@ -18,6 +18,14 @@ print (rev_string('Alejandro'))
 #Write a Python function called num_within() to check whether a number falls in a given range.
 def num_within(num, start, end):
     return start <= num <= end
+result = num_within(3, 2, 4)
+print(result)
+
+result = num_within(3, 1, 3)
+print(result)
+
+result = num_within(10, 2, 5)
+print(result)
 
 #Write a Python function called pascal() that prints out the first n rows of Pascal's triangle.
-def pascal()
+
