@@ -16,7 +16,8 @@ def rev_string(Alejandro):
 print (rev_string('Alejandro'))    
 
 #Write a Python function called num_within() to check whether a number falls in a given range.
-
+def num_within(num, start, end):
+    return start <= num <= end
 
 #Write a Python function called pascal() that prints out the first n rows of Pascal's triangle.
-
+def pascal()
